@@ -23,7 +23,6 @@ requirements:
     - pip
   run:
     - python >={{ python_min }}
-    - astor
     # want to stay noarch: python so adding this for all python
     - tomli >=1.1.0
 
