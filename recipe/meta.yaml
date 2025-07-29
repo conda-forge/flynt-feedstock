@@ -1,5 +1,5 @@
 {% set name = "flynt" %}
-{% set version = "1.0.3" %}
+{% set version = "1.0.6" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/flynt-{{ version }}.tar.gz
-  sha256: dbf3bdd926657aedafb96123d856cd3ac211e887bbd48abe5612db5fd9af393d
+  sha256: 471b7ff00756678e2912d4261dcbcd8fc1395129b66bf6977f88a3b3ad220c90
 
 build:
   noarch: python
@@ -20,6 +20,7 @@ requirements:
   host:
     - python {{ python_min }}
     - hatchling
+    - hatch-vcs
     - pip
   run:
     - python >={{ python_min }}
