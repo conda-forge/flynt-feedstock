@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/flynt-{{ version }}.tar.gz
-  sha256: 35cb382df6cca510698a6b68f6957f30befc0941a30e4b1a906ef19540529489
+  sha256: 471b7ff00756678e2912d4261dcbcd8fc1395129b66bf6977f88a3b3ad220c90
 
 build:
   noarch: python
